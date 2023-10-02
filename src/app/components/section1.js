@@ -55,7 +55,7 @@ function Section1(){
     <Image src={downMountain}  style={{ top: `${-200 + count}px` }} className={homeStyles.downMountainImg}  alt="downMountain.png"/>
     <Image src={mountainimg}  style={{ bottom: `${-200 + count}px` }} className={homeStyles.mountainImg}  alt="downMountain.png"/>
   <div className={homeStyles.textContainer}>
-  <span className={homeStyles.textContainerHeader}>A Creator's Paradise</span>
+  <span className={homeStyles.textContainerHeader}>{"A Creator's Paradise"}</span>
   <span className={homeStyles.textContainerBody}>Were Creativity Meets Success</span>
   </div>
   <Image src={signUpImage} className={homeStyles.signUpImage}  alt="img"/>

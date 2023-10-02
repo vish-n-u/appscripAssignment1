@@ -8,11 +8,11 @@ import Image from 'next/image';
 
 function Section5(){
     return<> <div id="" className={section5.container}>
-    <Image src={section5Emojis} className={section5.emojiImg} />
+    <Image src={section5Emojis} className={section5.emojiImg} alt="img.png"/>
     <div className={section5.dataContainer}>
-      <span className={section5.dataTitle}>Ready to Cash in Your Connections?
-Join Our Affiliate Program</span>
-      <span className={section5.dataDescription}>Join now and get 7.5% commision on all creato referrals for the entire year</span>
+      <span className={section5.dataTitle}>{`Ready to Cash in Your Connections?
+Join Our Affiliate Program`}</span>
+      <span className={section5.dataDescription}>{"Join now and get 7.5% commision on all creato referrals for the entire year"}</span>
       <button className={section5.dataButton}>Earn Now</button>
     </div>
   </div>
@@ -24,11 +24,11 @@ Join Our Affiliate Program</span>
     <span className={section5Part2.dataTitle}>
       Join the ABC Community
     </span>
-    <span className={section5Part2.dataDescription}>
+    <span className={section5Part2.dataDescription}>{`
     Become part of a vibrant and supportive community of like-minded 
     creators by joining ABC's exclusive platform.  orate, learn, and connect with 
     fellow creators who share your passion for adult content creation.
-
+`}
     </span>
     <button className={section5Part2.dataButton}>Learn More</button>
   </div>
