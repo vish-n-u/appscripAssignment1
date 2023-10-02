@@ -1,5 +1,5 @@
-import bubbleLeft from "../../../public/Bubbles - Left.png"
-import bubbleRight from "../../../public/Bubbles - Right.png"
+import bubbleLeft from "../../../public/Bubbles-Left.png"
+import bubbleRight from "../../../public/Bubbles-Right.png"
 import section3Styles from '../styles/section3.module.css'
 import Image from 'next/image';
 
