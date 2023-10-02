@@ -1,5 +1,5 @@
 
-import section1Part2Img from "../../../public/section1Part2Img.png"
+import section1Part2Img from "../../../public/section1part2Img.png"
 import section2Part1Img from "../../../public/section2part1Img.png"
 import section2Part2Img from "../../../public/section2part2Img.png"
 import section2Part3Img from "../../../public/section2part3Img.png"
