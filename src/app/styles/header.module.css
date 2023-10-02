@@ -1,0 +1,118 @@
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height:5rem;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    z-index: 10;
+    position:fixed;
+    top: 0px;
+  }
+  
+  .logo{
+    width: 15%;
+    text-align: center;
+  /* background-color: aqua; */
+  }
+  
+  .otherDetailsContainer{
+    width:45%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .otherDetailsContainerItem{
+    text-decoration: none;
+    color: beige;
+    cursor: pointer;
+  }
+  .register{
+    width: 20%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 10px;
+    /* background-color: transparent; */
+    /* background: none; */
+  }
+  
+  .login{
+    color:white;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    /* background: none; */
+    padding: 10px 25px;
+    border: none;
+  }
+  
+  .signup{
+    color:white;
+    font-weight: 400;
+    font-size: 18px;
+    background: linear-gradient(90deg, #7526F2, transparent) #C826F2;
+    font-family: inherit;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 14px;
+    gap: 10px;
+    min-width: 161px;
+    text-decoration: none;
+    transition: background-color linear 1s;
+  }
+  
+  .signup:hover ,.signup:focus {
+    transition: background-color linear 1s;
+    background: linear-gradient(90deg,#C826F2 , transparent ) #7526F2 ;
+  
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .6);
+    
+    /* background: green; */
+  }
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .otherDetailsContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .hamburger {
+    display: none; /* Initially hide the hamburger icon */
+  }
+  
+  @media (max-width: 768px) {
+    .otherDetailsContainer {
+      display: none; /* Hide the navigation links on smaller screens */
+    }
+    .register{
+      display: none;
+    }
+    .hamburger {
+      display: block;
+      font-size: x-large;
+      font-weight: bolder; /* Show the hamburger icon on smaller screens */
+    }
+    .header{
+      padding:0 4rem ;
+    }
+  }
+  
+  .home{
+    display: flex;
+    width: 100%;
+    min-width: 100px;
+    background-color: red;
+    min-height: 100px;
+  }

@@ -1,0 +1,72 @@
+
+  /* footer.module.css */
+
+/* Style the main footer container */
+
+  .container{
+    width: 100%;
+    min-height: 120vh;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    color: azure;
+    /* align-items: baseline; */
+    /* align-items: center; */
+  }
+  .logo{
+    font-weight: 600;
+    font-size: 80px;
+    margin-top: 200px;
+  }
+  /* Style the header section with the logo */
+  .detailsContainer{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+
+  }
+  .detailsContainerCol{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+  }
+  .detailsContainerColTitle{
+    font-size: 25px;
+    margin-bottom:18px ;
+  }
+  .detailsContainerColItem{
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: rgba(154, 164, 164, 0.877);
+  }
+  .followUsContainer{
+    margin-top: 200px;
+
+  }
+  .followUsTitle{
+    font-size: 25px;
+    margin-bottom:18px ;
+  }
+
+  @media (max-width:768px) {
+    .logo{
+      display: none;
+    }
+    .container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .detailsContainer{
+      flex-direction: column;
+      align-items: center;
+    }
+    .detailsContainerCol{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+  }

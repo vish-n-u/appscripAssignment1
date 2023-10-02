@@ -1,0 +1,17 @@
+.imgStyle{
+    width:100vw;
+    height: 40vw;
+    opacity:0.8;
+    background-color:"black";
+    z-index:20
+}
+.container{
+    width: 100%;
+    background-color: black;
+}
+
+@media(max-width:768px){
+    .imgStyle{
+        height:60vw;
+    }
+}

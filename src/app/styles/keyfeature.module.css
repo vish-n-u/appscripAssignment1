@@ -1,0 +1,234 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title{
+    /* font-family: Roboto; */
+font-size: 64px;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: 0em;
+text-align: center;
+color: #D9D9D9;
+margin-top: 40px;
+
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.mobileImageContainer{
+        width: 40%;
+        height: 40%;
+        /* border: 1px solid green; */
+        padding: 10px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color:  #10132d; */
+    padding: 35px;
+    overflow: hidden;
+    max-height: 500px;
+    background: linear-gradient(to bottom, #4505ac, black);
+    min-height: 350px;
+    max-width: 600px;
+
+        /* background: linear-gradient(91.19deg, rgba(117, 38, 242, 0.3) 0%, rgba(200, 38, 242, 0.3) 100%); */
+
+}
+
+.mobileImageTitle{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #CAC4D2;
+    margin-top: 10px
+    ;
+    
+    }
+.mobileImageDescription{
+    /* font-family: Roboto; */
+    font-size: 15px;
+    font-weight: 400;
+    /* line-height: 28px; */
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BA94DF;
+    margin-top: 30px
+;
+
+
+}
+
+.mobileImage{
+    width: 55%;
+    /* min-width: 350px; */
+    height: 45%;
+    margin-top: 50px;
+    max-height: 190px;
+    
+
+}
+
+
+.ecommerceContainer{
+    width: 50%;
+        height: 40%;
+        /* border: 1px solid green; */
+        padding: 10px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+       background:  linear-gradient(to bottom, #4505ac, black);
+        padding: 35px;
+        overflow: hidden;
+    max-height: 500px;
+    min-height: 350px;
+    max-width: 600px;
+        /* background: linear-gradient(91.19deg, rgba(117, 38, 242, 0.3) 0%, rgba(200, 38, 242, 0.3) 100%); */
+
+
+}
+
+.ecommerceImg{
+    width: 90%;
+    height: 90%;
+    /* min-width: 250px; */
+    /* min-height: 200px; */
+    margin-top: 50px
+}
+
+
+.section2Container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+
+}
+
+.section2Itemscontainer{
+    /* border:1px solid green; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    border-radius: 30px;
+    background:  linear-gradient(to bottom, #1e1c20,rgb(23, 0, 20), #1e1c20);
+    max-height: 550px;
+    min-height: 350px;
+    max-width: 600px;
+    overflow: hidden;
+
+}
+.section2title{
+    /* font-family: Roboto; */
+font-size: 30px;
+font-weight: 500;
+/* l/ine-height: 47px; */
+letter-spacing: 0em;
+text-align: center;
+color: #CAC4D2;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+.section2description{
+    /* font-family: Roboto; */
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 23px; */
+    letter-spacing: 0em;
+    text-align: center;
+    color: #89759C;
+
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        align-items: center;
+       
+    }
+    .titleContainer{
+        background-image: linear-gradient(to right, blue, white);
+    -webkit-background-clip: text;
+     background-clip: text;
+    color: transparent; /* Hide the original text color */
+    width: 100%;
+   
+    }
+    .title{
+        font-size: xx-large;
+        color: transparent;
+        text-align: center;
+    }
+    .section1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        
+    }
+    .section2Container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .ecommerceContainer{
+        width: 90%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .mobileImageContainer{
+        width: 90%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .mobileImageTitle{
+        font-size: 25px;
+        color: white;
+        line-height: 32px;
+        
+    }
+    .mobileImageDescription{
+        margin-top: 18px;
+    }
+    .section2Itemscontainer{
+        width: 90%;
+            max-height:500px;
+            margin-top: 8px;
+        margin-bottom: 8px;
+        padding: 15px;
+    
+    }
+    .section2title{
+        font-weight: 400;
+        font-size: 25px;
+    }
+    .section2description{
+        font-weight: 300;
+        font-size: 15px;
+    }
+}

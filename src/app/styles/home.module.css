@@ -1,0 +1,119 @@
+.home{
+    display: flex;
+    width: 100%;
+    min-width: 100px;
+    background-color: rgb(57, 9, 109);
+    height: 90vh;
+    /* height: 100%; */
+    justify-content: space-around;
+    align-items: center;
+    color: bisque;
+    z-index: -1;
+    margin-top: 80px;
+}
+
+.signUpImage{
+    z-index: 20;
+    max-width: 400px;
+    max-height: 600px;
+   
+}
+.downMountainImg{
+    position: absolute;
+    /* top:-50px; */
+    z-index: 0;
+    max-width: 100%;
+    left:-140px;
+    width: 1600px;
+    height: 500px;
+    transition: top 0.3s ease; 
+    /* opacity: 0.5; */
+}
+.mountainImg{
+    
+    position: absolute;
+        /* bottom:0px; */
+    z-index: 0;
+    right:10px;
+    width: 1600px;
+    max-width: 100%;
+     height: 500px;
+     transition: top 0.3s ease; 
+     /* opacity: 0.5; */
+        
+    
+}
+
+.textContainer{
+    display: flex;
+    /* width: 909px; */
+    z-index: 10;
+    padding: 5px;
+    padding-left: 10px;
+    flex-direction: column;
+    color: #CAC4D2;
+    
+
+}
+.textContainerHeader{
+    font-family: Roboto;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 118px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.textContainerBody{
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+
+@media (max-width: 768px){
+    /* .downMountainImg{
+        display: none;
+    }
+    .mountainImg{
+        display: none; */
+    /* } */
+    .home{
+        flex-direction: column;
+    }
+    .signUpImage{
+        width: 90%;
+    }
+    .downMountainImg{
+        width: 800px;
+    }
+    .mountainImg{
+        width: 800px;
+    }
+    .textContainerHeader{
+        font-family: Roboto;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+
+    }
+    .textContainerBody{
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        margin-top: 4px;
+        text-align: center;
+        color: #B27DE5;
+        ;
+
+    }
+}
